@@ -1,0 +1,56 @@
+{
+    "compilerOptions": {
+        /* Basic Options */
+        "target": "ES2019",
+        "module": "commonjs",
+        // "lib": [],
+        "allowJs": false,
+        // "checkJs": true,
+        // "jsx": "preserve",
+        "declaration": true,
+        "declarationMap": true,
+        "sourceMap": true,
+        // "outFile": "./",
+        "outDir": "./dist/node",
+        // "rootDir": "./",
+        // "composite": true,
+        "removeComments": true,
+        // "noEmit": true,
+        "importHelpers": true,
+        // "downlevelIteration": true,
+        // "isolatedModules": true,
+        "strict": true,
+        "noImplicitAny": true,
+        "strictNullChecks": true,
+        "strictFunctionTypes": true,
+        "strictPropertyInitialization": true,
+        "noImplicitThis": true,
+        "alwaysStrict": true,
+        "noUnusedLocals": true,
+        "noUnusedParameters": false,
+        "noImplicitReturns": true,
+        "noFallthroughCasesInSwitch": true,
+        // "moduleResolution": "node",
+        // "baseUrl": "./",
+        // "paths": {},
+        // "rootDirs": [],
+        // "typeRoots": [],
+        // "types": [],
+        // "allowSyntheticDefaultImports": true,
+        "esModuleInterop": true
+        // "preserveSymlinks": true,
+        // "sourceRoot": "",
+        // "mapRoot": "",
+        // "inlineSourceMap": true,
+        // "inlineSources": true,
+        // "experimentalDecorators": true,
+        // "emitDecoratorMetadata": true,
+    },
+    "include": [
+        "source/**/*.ts"
+    ],
+    "exclude": [
+        "node_modules",
+        "**/*.spec.ts"
+    ]
+}

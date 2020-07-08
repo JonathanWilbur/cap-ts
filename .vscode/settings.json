@@ -1,0 +1,20 @@
+{
+    "eslint.run": "onSave",
+    "eslint.enable": false,
+    "eslint.workingDirectories": [
+        "source",
+    ],
+    "eslint.validate": [
+        "javascript",
+        "javascriptreact",
+        "typescript",
+        "typescriptreact",
+    ],
+    "eslint.nodePath": "./node_modules",
+    "jest.showCoverageOnLoad": true,
+    "azureFunctions.deploySubpath": "./source/functions",
+    "azureFunctions.projectLanguage": "TypeScript",
+    "azureFunctions.projectRuntime": "~2",
+    "debug.internalConsoleOptions": "neverOpen",
+    "azureFunctions.preDeployTask": "npm prune",
+}
