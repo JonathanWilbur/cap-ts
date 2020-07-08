@@ -6,6 +6,6 @@
 
 ## To Do
 
-- [ ] Include encoding header
+- [x] Include encoding header
 - [ ] Test XML encoding and decoding more
-- [ ] Ensure proper capitalization is used.
+- [x] Ensure proper capitalization is used.

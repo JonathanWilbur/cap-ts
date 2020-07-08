@@ -157,7 +157,7 @@ function alertToXML (alert: Alert): string {
     const alertStatus = _to_string_Alert_status(alert.status);
     const alertMsgType = _to_string_Alert_msgType(alert.msgType);
     const alertScope = _to_string_Alert_scope(alert.scope);
-    const doc = xmlbuilder2.create({ version: "1.0" })
+    const doc = xmlbuilder2.create({ version: "1.0", encoding: "UTF-8" })
         .ele("alert", { xmlns: "urn:oasis:names:tc:emergency:cap:1.2" })
             .ele("identifier").txt(alert.identifier).up()
             .ele("sender").txt(alert.sender).up()
